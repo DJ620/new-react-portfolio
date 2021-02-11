@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
+import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
+import Main from "./Components/Main/Main";
+import Portfolio from "./Pages/Portfolio/Portfolio";
 
 function App() {
+  const [page, setPage] = useState(<Portfolio />);
   const body = {
     fontFamily: "Source Sans Pro",
     backgroundColor: "#ffffff",
@@ -13,7 +17,9 @@ function App() {
 
   return (
     <div style={body}>
-      <Header />
+      <Header setPage={setPage}/>
+      <Main page={page}/>
+      <Footer />
     </div>
   );
 }

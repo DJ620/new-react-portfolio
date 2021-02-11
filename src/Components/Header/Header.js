@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
 import headshot from "../../images/dh-PRINT-hr-1-round.png";
+import About from '../../Pages/About/About';
+import Contact from '../../Pages/Contact/Contact';
+import Portfolio from '../../Pages/Portfolio/Portfolio';
 import "./Header.css";
 
-function Header() {
+function Header({setPage}) {
     const [portfolio, setPortfolio] = useState(true);
     const [about, setAbout] = useState(false);
     const [contact, setContact] = useState(false);
@@ -11,18 +14,21 @@ function Header() {
         setPortfolio(true);
         setAbout(false);
         setContact(false);
+        setPage(<Portfolio />)
     };
 
     const handleAbout = () => {
         setAbout(true);
         setPortfolio(false);
         setContact(false);
+        setPage(<About />)
     };
 
     const handleContact = () => {
         setContact(true);
         setPortfolio(false);
         setAbout(false);
+        setPage(<Contact />)
     };
 
     return (
