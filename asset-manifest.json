@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/new-react-portfolio/static/css/main.d225e48d.chunk.css",
+    "main.js": "/new-react-portfolio/static/js/main.aa0290fa.chunk.js",
+    "main.js.map": "/new-react-portfolio/static/js/main.aa0290fa.chunk.js.map",
+    "runtime-main.js": "/new-react-portfolio/static/js/runtime-main.9297daac.js",
+    "runtime-main.js.map": "/new-react-portfolio/static/js/runtime-main.9297daac.js.map",
+    "static/js/2.7ab0242c.chunk.js": "/new-react-portfolio/static/js/2.7ab0242c.chunk.js",
+    "static/js/2.7ab0242c.chunk.js.map": "/new-react-portfolio/static/js/2.7ab0242c.chunk.js.map",
+    "index.html": "/new-react-portfolio/index.html",
+    "static/css/main.d225e48d.chunk.css.map": "/new-react-portfolio/static/css/main.d225e48d.chunk.css.map",
+    "static/js/2.7ab0242c.chunk.js.LICENSE.txt": "/new-react-portfolio/static/js/2.7ab0242c.chunk.js.LICENSE.txt",
+    "static/media/DJ-resume.b284835b.pdf": "/new-react-portfolio/static/media/DJ-resume.b284835b.pdf",
+    "static/media/build-a-burger.2e8c4f9e.png": "/new-react-portfolio/static/media/build-a-burger.2e8c4f9e.png",
+    "static/media/code-quiz.5129bd9f.png": "/new-react-portfolio/static/media/code-quiz.5129bd9f.png",
+    "static/media/daily-planner.79f7ba36.png": "/new-react-portfolio/static/media/daily-planner.79f7ba36.png",
+    "static/media/dh-PRINT-hr-1-round.a3058333.png": "/new-react-portfolio/static/media/dh-PRINT-hr-1-round.a3058333.png",
+    "static/media/episorder.6475b665.png": "/new-react-portfolio/static/media/episorder.6475b665.png",
+    "static/media/harmony.30d5dde2.png": "/new-react-portfolio/static/media/harmony.30d5dde2.png",
+    "static/media/headshot2.32a1765b.jpg": "/new-react-portfolio/static/media/headshot2.32a1765b.jpg",
+    "static/media/mattress.a294f280.png": "/new-react-portfolio/static/media/mattress.a294f280.png",
+    "static/media/rain-shine.58bc6538.png": "/new-react-portfolio/static/media/rain-shine.58bc6538.png",
+    "static/media/storefrontreact.347d3b96.png": "/new-react-portfolio/static/media/storefrontreact.347d3b96.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9297daac.js",
+    "static/js/2.7ab0242c.chunk.js",
+    "static/css/main.d225e48d.chunk.css",
+    "static/js/main.aa0290fa.chunk.js"
+  ]
+}
