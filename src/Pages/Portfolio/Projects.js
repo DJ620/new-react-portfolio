@@ -13,7 +13,7 @@ const projects = [
         deployed: "https://storefrontreact.herokuapp.com/",
         image: storefront,
         repo: "https://github.com/DJ620/store-front-react",
-        description: "Collaborated with a team of 4 other developers to build this React web application that allows store owners to create a fully-customized online store with a user-friendly interface. My contribution to this project was writing all of the back-end code to create the server and database, as well as implementing redux into the react code.",
+        description: "collaborated with a team of 4 other developers to build this React web application that allows store owners to create a fully-customized online store with a user-friendly interface. My contribution to this project was writing all of the back-end code to create the server and database, as well as implementing redux into the react code.",
         tech: ["React", "Redux", "Redux-Persist", "Express", "MySQL", "Sequelize", "Cloudinary", "Axios", "Passport", "JSONwebtoken", "Bootstrap"]
     },
     {
