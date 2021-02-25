@@ -3,6 +3,7 @@ import headshot from "../../images/dh-PRINT-hr-1-round.png";
 import About from '../../Pages/About/About';
 import Contact from '../../Pages/Contact/Contact';
 import Portfolio from '../../Pages/Portfolio/Portfolio';
+import Icons from '../Icons/Icons';
 import "./Header.css";
 
 function Header({setPage}) {
