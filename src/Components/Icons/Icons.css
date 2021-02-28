@@ -10,10 +10,10 @@ p {
     display: flex;
 }
 
-.iconrow {
+/* .iconrow {
     width: 60vw;
     min-width: 400px;
-}
+} */
 
 .iconcontainer {
     /* margin-top: 50px; */
