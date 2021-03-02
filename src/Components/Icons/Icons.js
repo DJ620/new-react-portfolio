@@ -115,28 +115,26 @@ function Icons() {
       borderRadius: "0px",
     },
     container: {
-      marginTop: "-120px",
-      marginBottom: "-20px"
-    }
+      whiteSpace: "nowrap",
+      width: "2300px",
+      height: "50px",
+      marginLeft: "10px"
+    },
   };
 
   return (
-    <div className="container" style={styles.container}>
-      <div className="row d-flex justify-content-center iconcontainer">
-        <div className="row d-flex justify-content-center iconrow">
-          {icons.map((icon) => (
-            <div className="flex align-items-center">
-              <img
-                src={icon.img}
-                className="my-3"
-                alt="tech icon"
-                style={styles.img}
-              />
-              <p className="mx-2 pt-3">{icon.tech}</p>
-            </div>
-          ))}
+    <div className="row" style={styles.container}>
+      {icons.map((icon) => (
+        <div className="row align-items-center" key={icon.tech}>
+          <img
+            src={icon.img}
+            className="my-3 ml-3"
+            alt="tech icon"
+            style={styles.img}
+          />
+          <p className="mr-4 ml-1 pt-3">{icon.tech}</p>
         </div>
-      </div>
+      ))}
     </div>
   );
 }

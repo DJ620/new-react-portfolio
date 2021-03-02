@@ -6,6 +6,7 @@ import burger from "../../images/build-a-burger.png";
 import codequiz from "../../images/code-quiz.png";
 import planner from "../../images/daily-planner.png";
 import episorder from "../../images/episorder.png";
+import todolist from "../../images/todolist.png";
 
 const projects = [
     {
@@ -71,6 +72,14 @@ const projects = [
         repo: "https://github.com/DJ620/episorder",
         description: "This is a web application that allows users to choose any number of tv shows, and sort their episodes based on air date. I created this app so that fans of franchise's such as CW's super hero shows can easily figure out what order to watch episodes while staying on the correct timeline.",
         tech: ["EpisoDate API", "Bootstrap", "jQuery"]
+    },
+    {
+        name: "React To Do List",
+        deployed: "https://dj620.github.io/1hour-to-do-list/",
+        image: todolist,
+        repo: "https://github.com/DJ620/1hour-to-do-list",
+        description: "This is a simple to do list application I created to practice my skills in React. It can handle full CRUD (Create, Read, Update, Delete) functionality, and was built to be mobile-responsive.",
+        tech: ["React", "Local Storage", "Bootstrap"]
     }
 ];
 

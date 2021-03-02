@@ -10,6 +10,7 @@
 .card {
     background: transparent;
     border: none;
+    padding-bottom: "0px";
 }
 
 img {

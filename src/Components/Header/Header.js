@@ -41,20 +41,20 @@ function Header({setPage}) {
                 <div className="col-xl-5 col-lg-6 col-xs-12">
                     <div className="row">
                         <div className="col d-flex justify-content-center justify-content-lg-start ml-xl-n4">
-                            <h1 className="display-3 font-weight-bold mt-3 name">
+                            <h1 className="display-3 font-weight-bold mt-3 name text-center">
                                 <strong>DJ Hersh</strong>
                             </h1>
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col d-flex justify-content-center justify-content-lg-start mr-xl-5 ml-xl-n4">
-                            <h2 className="mt-n4">Welcome to my portfolio!</h2>
+                        <div className="col d-flex text-center justify-content-center justify-content-lg-start mr-xl-5 ml-xl-n4">
+                            <h2 className="mt-n4">Full Stack Web Developer</h2>
                         </div>
                     </div>
                 </div>
                 <div className="col-xl-5 col-lg-6 col-xs-12 mr-md-3 mr-lg-0 mr-xl-n3 ml-lg-n4 ml-xl-0 pr-md-n3 d-flex p-2 justify-content-center justify-content-lg-end">
                     <div className="one-pix">
-                        <ul className="list-inline mt-5 ml-xl-5 ">
+                        <ul className="list-inline mt-5 ml-xl-5 text-center">
                             <li className="list-inline-item">
                                 <h2 className={portfolio ? "link font-weight-bold" : "link"} onClick={handlePortfolio}>Portfolio</h2>
                             </li>

@@ -16,11 +16,12 @@ function ProjectCard({name, deployed, image, repo, card}) {
     const styles = {
         project: {
             color: "#F7B801",
-            webkitTextStroke: "1px #576ef0",
+            WebkitTextStroke: "1px #576ef0",
             textShadow: "5px 5px 20px black"
         },
         image: {
-            boxShadow: "2px 2px 10px 1px black"
+            boxShadow: "2px 2px 10px 1px black",
+            borderRadius: "25px"
         }
     }
     return (

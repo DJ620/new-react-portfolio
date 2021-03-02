@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Ticker from "react-ticker";
-import Test from "../Icons/Test";
+import Icons from "../Icons/Icons";
 import "./Main.css";
 
 function Main({ page }) {
@@ -17,7 +17,7 @@ function Main({ page }) {
   return (
       <>
     <div style={styles.icons}>
-    <Ticker offset="run-in">{() => <Test />}</Ticker>
+    <Ticker offset="run-in">{() => <Icons />}</Ticker>
     </div>
     <main>
       <div className="block">{page}</div>

@@ -24,7 +24,7 @@ function Description({ side, description, tech }) {
       <p style={styles.list}>Technologies Used:</p>
       <ul className="list-unstyled" style={styles.list}>
         {tech.map((tech) => (
-          <li>{tech}</li>
+          <li key={tech}>{tech}</li>
         ))}
       </ul>
     </div>

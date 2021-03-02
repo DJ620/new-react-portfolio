@@ -1,9 +1,6 @@
 import React, { useState } from "react";
-import Ticker from "react-ticker";
 import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
-import Icons from "./Components/Icons/Icons";
-import Test from "./Components/Icons/Test";
 import Main from "./Components/Main/Main";
 import Portfolio from "./Pages/Portfolio/Portfolio";
 
@@ -28,11 +25,6 @@ function App() {
   return (
     <div style={styles.body}>
       <Header setPage={setPage}/>
-      {/* <div style={styles.icons}>
-      <Ticker>
-      {() => <Test />}
-      </Ticker>
-      </div> */}
       <Main page={page}/>
       <Footer />
     </div>
