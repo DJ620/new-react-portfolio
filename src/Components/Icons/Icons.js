@@ -21,6 +21,7 @@ import react from "../../images/Icons/react.png";
 import redux from "../../images/Icons/Redux.png";
 import sequelize from "../../images/Icons/sequelize.png";
 import vscode from "../../images/Icons/vscode.png";
+import typescript from "../../images/Icons/typescript.png";
 
 function Icons() {
   const icons = [
@@ -59,6 +60,10 @@ function Icons() {
     {
       tech: "Redux",
       img: redux,
+    },
+    {
+      tech: "TypeScript",
+      img: typescript
     },
     {
       tech: "MySQL",
@@ -116,7 +121,7 @@ function Icons() {
     },
     container: {
       whiteSpace: "nowrap",
-      width: "2300px",
+      width: "2400px",
       height: "50px",
       marginLeft: "10px"
     },
