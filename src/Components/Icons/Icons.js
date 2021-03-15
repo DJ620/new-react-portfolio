@@ -22,6 +22,8 @@ import redux from "../../images/Icons/Redux.png";
 import sequelize from "../../images/Icons/sequelize.png";
 import vscode from "../../images/Icons/vscode.png";
 import typescript from "../../images/Icons/typescript.png";
+import reactpdf from "../../images/Icons/react-pdf.png";
+import reactNative from "../../images/Icons/react-native.png";
 
 function Icons() {
   const icons = [
@@ -66,6 +68,10 @@ function Icons() {
       img: typescript
     },
     {
+      tech: "React Native",
+      img: reactNative
+    },
+    {
       tech: "MySQL",
       img: mysql,
     },
@@ -106,6 +112,10 @@ function Icons() {
       img: emailjs,
     },
     {
+      tech: "React-PDF",
+      img: reactpdf
+    },
+    {
       tech: "Git",
       img: git,
     },
@@ -121,7 +131,7 @@ function Icons() {
     },
     container: {
       whiteSpace: "nowrap",
-      width: "2400px",
+      width: "2665px",
       height: "50px",
       marginLeft: "10px"
     },
