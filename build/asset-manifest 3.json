@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.935c2fe9.chunk.css",
+    "main.js": "/static/js/main.61c34a31.chunk.js",
+    "main.js.map": "/static/js/main.61c34a31.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2fd7dc15.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2fd7dc15.js.map",
+    "static/js/2.c7e4af67.chunk.js": "/static/js/2.c7e4af67.chunk.js",
+    "static/js/2.c7e4af67.chunk.js.map": "/static/js/2.c7e4af67.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.935c2fe9.chunk.css.map": "/static/css/main.935c2fe9.chunk.css.map",
+    "static/js/2.c7e4af67.chunk.js.LICENSE.txt": "/static/js/2.c7e4af67.chunk.js.LICENSE.txt",
+    "static/media/DJ-resume.a7ae72f4.pdf": "/static/media/DJ-resume.a7ae72f4.pdf",
+    "static/media/build-a-burger.2e8c4f9e.png": "/static/media/build-a-burger.2e8c4f9e.png",
+    "static/media/code-quiz.5129bd9f.png": "/static/media/code-quiz.5129bd9f.png",
+    "static/media/daily-planner.79f7ba36.png": "/static/media/daily-planner.79f7ba36.png",
+    "static/media/dh-PRINT-hr-1-round.a3058333.png": "/static/media/dh-PRINT-hr-1-round.a3058333.png",
+    "static/media/episorder.6475b665.png": "/static/media/episorder.6475b665.png",
+    "static/media/harmony.30d5dde2.png": "/static/media/harmony.30d5dde2.png",
+    "static/media/headshot2.32a1765b.jpg": "/static/media/headshot2.32a1765b.jpg",
+    "static/media/mattress.a294f280.png": "/static/media/mattress.a294f280.png",
+    "static/media/mysql.ce94e2f2.png": "/static/media/mysql.ce94e2f2.png",
+    "static/media/rain-shine.58bc6538.png": "/static/media/rain-shine.58bc6538.png",
+    "static/media/storefrontreact.347d3b96.png": "/static/media/storefrontreact.347d3b96.png",
+    "static/media/todolist.6484aec9.png": "/static/media/todolist.6484aec9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2fd7dc15.js",
+    "static/js/2.c7e4af67.chunk.js",
+    "static/css/main.935c2fe9.chunk.css",
+    "static/js/main.61c34a31.chunk.js"
+  ]
+}
