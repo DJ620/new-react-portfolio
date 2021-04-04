@@ -24,6 +24,7 @@ import vscode from "../../images/Icons/vscode.png";
 import typescript from "../../images/Icons/typescript.png";
 import reactpdf from "../../images/Icons/react-pdf.png";
 import reactNative from "../../images/Icons/react-native.png";
+import next from "../../images/Icons/next_logo.png";
 
 function Icons() {
   const icons = [
@@ -70,6 +71,10 @@ function Icons() {
     {
       tech: "React Native",
       img: reactNative
+    },
+    {
+      tech: "Next.js",
+      img: next
     },
     {
       tech: "MySQL",
@@ -131,7 +136,7 @@ function Icons() {
     },
     container: {
       whiteSpace: "nowrap",
-      width: "2665px",
+      width: "2765px",
       height: "50px",
       marginLeft: "10px"
     },
