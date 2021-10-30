@@ -9,13 +9,13 @@ function Footer() {
       <footer className="container">
           <div className="d-flex justify-content-center">
               <a href="https://www.linkedin.com/in/djhersh/" target="_blank">
-                  <img src="https://cdn2.iconfinder.com/data/icons/linkedin-ui-flat/48/LinkedIn_UI-02-512.png" alt="linkedin" className="linkedin"/>
+                  <img src="https://cdn2.iconfinder.com/data/icons/linkedin-ui-flat/48/LinkedIn_UI-02-512.png" alt="linkedin" className="linkedin iconShadow"/>
               </a>
               <a href="https://github.com/DJ620" target="_blank">
-                  <img src={github} alt="github" className="github mt-3"/>
+                  <img src={github} alt="github" className="github iconShadow mt-3"/>
               </a>
               <a href="https://twitter.com/DjhershWebDev" target="_blank">
-                  <img src={twitter} alt="twitter" className="twitter mt-1 ml-1"/>
+                  <img src={twitter} alt="twitter" className="twitter iconShadow mt-1 ml-1"/>
               </a>
           </div>
           <div className="row d-flex justify-content-center">

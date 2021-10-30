@@ -32,3 +32,11 @@
 .made {
     margin-left: -80px;
 }
+
+.iconShadow {
+    filter: drop-shadow(15px 15px 30px black);
+}
+
+.iconShadow:hover {
+    filter: drop-shadow(15px 15px 28px black);
+}

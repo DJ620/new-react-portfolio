@@ -1,5 +1,6 @@
 import React from "react";
 import headshot from "../../images/headshot2.jpg";
+import icLogo from "../../images/Icons/ic-logo.png";
 import resume from "../../images/DJ-resume.pdf";
 import "./About.css";
 

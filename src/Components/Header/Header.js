@@ -4,7 +4,6 @@ import About from '../../Pages/About/About';
 import Contact from '../../Pages/Contact/Contact';
 import Portfolio from '../../Pages/Portfolio/Portfolio';
 import Icons from '../Icons/Icons';
-import icLogo from "../../images/Icons/ic-logo.png";
 import "./Header.css";
 
 function Header({setPage}) {
