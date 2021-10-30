@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.935c2fe9.chunk.css",
-    "main.js": "/static/js/main.fe1b24cf.chunk.js",
-    "main.js.map": "/static/js/main.fe1b24cf.chunk.js.map",
+    "main.css": "/static/css/main.4851b312.chunk.css",
+    "main.js": "/static/js/main.d337ef09.chunk.js",
+    "main.js.map": "/static/js/main.d337ef09.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2fd7dc15.js",
     "runtime-main.js.map": "/static/js/runtime-main.2fd7dc15.js.map",
     "static/js/2.c7e4af67.chunk.js": "/static/js/2.c7e4af67.chunk.js",
     "static/js/2.c7e4af67.chunk.js.map": "/static/js/2.c7e4af67.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.935c2fe9.chunk.css.map": "/static/css/main.935c2fe9.chunk.css.map",
+    "static/css/main.4851b312.chunk.css.map": "/static/css/main.4851b312.chunk.css.map",
     "static/js/2.c7e4af67.chunk.js.LICENSE.txt": "/static/js/2.c7e4af67.chunk.js.LICENSE.txt",
-    "static/media/DJ-resume.6ee78294.pdf": "/static/media/DJ-resume.6ee78294.pdf",
+    "static/media/DJ-resume.3509e45c.pdf": "/static/media/DJ-resume.3509e45c.pdf",
     "static/media/build-a-burger.2e8c4f9e.png": "/static/media/build-a-burger.2e8c4f9e.png",
     "static/media/code-quiz.5129bd9f.png": "/static/media/code-quiz.5129bd9f.png",
     "static/media/daily-planner.79f7ba36.png": "/static/media/daily-planner.79f7ba36.png",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.2fd7dc15.js",
     "static/js/2.c7e4af67.chunk.js",
-    "static/css/main.935c2fe9.chunk.css",
-    "static/js/main.fe1b24cf.chunk.js"
+    "static/css/main.4851b312.chunk.css",
+    "static/js/main.d337ef09.chunk.js"
   ]
 }
