@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.4851b312.chunk.css",
-    "main.js": "/static/js/main.d337ef09.chunk.js",
-    "main.js.map": "/static/js/main.d337ef09.chunk.js.map",
+    "main.css": "/static/css/main.8fdfe36d.chunk.css",
+    "main.js": "/static/js/main.4bbc4109.chunk.js",
+    "main.js.map": "/static/js/main.4bbc4109.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2fd7dc15.js",
     "runtime-main.js.map": "/static/js/runtime-main.2fd7dc15.js.map",
     "static/js/2.c7e4af67.chunk.js": "/static/js/2.c7e4af67.chunk.js",
     "static/js/2.c7e4af67.chunk.js.map": "/static/js/2.c7e4af67.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.4851b312.chunk.css.map": "/static/css/main.4851b312.chunk.css.map",
+    "static/css/main.8fdfe36d.chunk.css.map": "/static/css/main.8fdfe36d.chunk.css.map",
     "static/js/2.c7e4af67.chunk.js.LICENSE.txt": "/static/js/2.c7e4af67.chunk.js.LICENSE.txt",
     "static/media/DJ-resume.3509e45c.pdf": "/static/media/DJ-resume.3509e45c.pdf",
     "static/media/build-a-burger.2e8c4f9e.png": "/static/media/build-a-burger.2e8c4f9e.png",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.2fd7dc15.js",
     "static/js/2.c7e4af67.chunk.js",
-    "static/css/main.4851b312.chunk.css",
-    "static/js/main.d337ef09.chunk.js"
+    "static/css/main.8fdfe36d.chunk.css",
+    "static/js/main.4bbc4109.chunk.js"
   ]
 }
