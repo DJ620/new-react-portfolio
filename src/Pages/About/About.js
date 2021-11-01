@@ -14,9 +14,6 @@ const styles = {
       boxShadow: "5px 5px 20px -5px black",
       borderRadius: "25px"
   },
-  icLogo : {
-    float: "right"
-  },
   button: {
       color: "white",
       backgroundColor: "#F7B801",
@@ -42,7 +39,7 @@ function About() {
         <div className="col-12 ml-md-5 ml-lg-0 pl-md-5 pl-lg-0 col-lg-5 mt-lg-5 mt-xl-3 pt-lg-5 pt-xl-0 pr-lg-0">
             <img src={headshot} alt="DJ Headhsot" className="img-fluid" style={styles.headshot} />
             <div className="mt-4 mb-xl-5 mr-md-5 pr-md-5 mr-lg-0 pr-lg-0 d-flex justify-content-center">
-              <img src={icLogo} alt="InvestCloud logo" className="img-fluid mr-md-4 mr-lg-0"/>
+              <a href="https://investcloud.com" target="_blank"><img src={icLogo} alt="InvestCloud logo" className="img-fluid mr-md-4 mr-lg-0 icLogo"/></a>
             </div>
         </div>
       </div>
