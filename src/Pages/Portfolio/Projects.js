@@ -7,6 +7,7 @@ import codequiz from "../../images/code-quiz.png";
 import planner from "../../images/daily-planner.png";
 import episorder from "../../images/episorder.png";
 import todolist from "../../images/todolist.png";
+import bookTracker from "../../images/book-tracker.png";
 
 const projects = [
     {
@@ -32,6 +33,14 @@ const projects = [
         repo: "https://github.com/DJ620/sell-more-mattresses",
         description: "This is a mobile-responsive webpage built for the company 'Sell More Mattresses'. I sought out the opportunity to work on a real world website for an existing business, and partnered with a web designer to create the page. The designer provided me with " + <a href="https://drive.google.com/file/d/1lfkrvAtqBg6Vi8nKn2Xuz4PjvKNDtLXT/view?usp=sharing" target="_blank"> + "this " + </a> + "wireframe, which I used to then build the actual site.",
         tech: ["Bootstrap", "EmailJS", "Twitter API"]
+    },
+    {
+        name: "Reading Tracker",
+        deployed: "https://djs-book-tracker.herokuapp.com/",
+        image: bookTracker,
+        repo: "https://github.com/DJ620/Book-tracker",
+        description: "This is an application I built to track reading progress. It uses the Google Books API to grab the data of any book, and allows you to log all of your reading sessions, including how much of the book you read, how long you read for, any quotes you want to jot down, and you can add your own notes. You can create your own account, or use the guest account: Username: Guest, Password: guest123",
+        tech: ["React", "Express", "MongoDB", "Mongoose", "JSONWebtoken", "React-Bootstrap", "Google Books API", "Axios", "Passport"]
     },
     {
         name: "RainShine",
