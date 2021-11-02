@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.201da96a.chunk.css",
-    "main.js": "/static/js/main.40b09230.chunk.js",
-    "main.js.map": "/static/js/main.40b09230.chunk.js.map",
+    "main.css": "/static/css/main.3ab41961.chunk.css",
+    "main.js": "/static/js/main.e5d5ea0d.chunk.js",
+    "main.js.map": "/static/js/main.e5d5ea0d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2fd7dc15.js",
     "runtime-main.js.map": "/static/js/runtime-main.2fd7dc15.js.map",
     "static/js/2.e0e5d25a.chunk.js": "/static/js/2.e0e5d25a.chunk.js",
     "static/js/2.e0e5d25a.chunk.js.map": "/static/js/2.e0e5d25a.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.201da96a.chunk.css.map": "/static/css/main.201da96a.chunk.css.map",
+    "static/css/main.3ab41961.chunk.css.map": "/static/css/main.3ab41961.chunk.css.map",
     "static/js/2.e0e5d25a.chunk.js.LICENSE.txt": "/static/js/2.e0e5d25a.chunk.js.LICENSE.txt",
     "static/media/DJ-resume.3509e45c.pdf": "/static/media/DJ-resume.3509e45c.pdf",
     "static/media/book-tracker.f0cafc50.png": "/static/media/book-tracker.f0cafc50.png",
@@ -28,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.2fd7dc15.js",
     "static/js/2.e0e5d25a.chunk.js",
-    "static/css/main.201da96a.chunk.css",
-    "static/js/main.40b09230.chunk.js"
+    "static/css/main.3ab41961.chunk.css",
+    "static/js/main.e5d5ea0d.chunk.js"
   ]
 }
