@@ -6,10 +6,11 @@ import Portfolio from "./Pages/Portfolio/Portfolio";
 
 function App() {
   const [page, setPage] = useState(<Portfolio />);
+  const [color, setColor] = useState("blue");
   const styles = {
     body: {
     fontFamily: "Source Sans Pro",
-    backgroundColor: "#ffffff",
+    backgroundColor: color === "blue" ? "#ffffff" : "gray",
     backgroundImage: "url('https://www.transparenttextures.com/patterns/white-diamond.png')",
     backgroundAttachment: "fixed",
     backgroundPosition: "center",
@@ -24,8 +25,8 @@ function App() {
 
   return (
     <div style={styles.body}>
-      <Header setPage={setPage}/>
-      <Main page={page}/>
+      <Header setPage={setPage} color={color} setColor={setColor}/>
+      <Main page={page} color={color}/>
       <Footer />
     </div>
   );

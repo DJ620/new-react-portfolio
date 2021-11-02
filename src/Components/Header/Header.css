@@ -8,9 +8,9 @@
     background-color: #4A4546;
 }
 
-.name {
+/* .name {
     color: #425be7;
-}
+} */
 
 .name:hover {
     cursor: pointer;
@@ -21,18 +21,45 @@
     margin-right: -1px;
 }
 
+.colorBtn {
+    display: flex;
+    border: none;
+    padding: 0;
+    background: transparent;
+    filter: drop-shadow(10px 10px 40px black);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.colorBtn:focus {
+    outline: none;
+}
+.btnPiece {
+    height: 30px;
+    width: 40px;
+}
+
 .link {
-    color: #5a72f9;
+    /* color: rgb(154, 154, 154); */
 }
 
 .link:hover {
-    color: white;
-    background-color: #5a72f9;
+    color: white !important;
+    /* background-color: #5a72f9; */
     border-radius: 10px;
     padding: 7px;
     margin: -7px;
     box-shadow: 1px 1px 10px black;
     cursor: pointer;
+}
+
+.blue:hover {
+    background-color: #5a72f9;
+}
+
+.maroon:hover {
+    background-color: maroon;
 }
 
 .link:active {
