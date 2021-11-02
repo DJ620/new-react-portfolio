@@ -71,14 +71,14 @@ function Header({setPage, color, setColor}) {
                 <div className="col-xl-5 col-lg-6 col-xs-12">
                     <div className="row">
                         <div className="col d-flex justify-content-center justify-content-lg-start ml-xl-n4">
-                            <h1 className="display-3 font-weight-bold mt-3 name text-center" style={styles.name}>
+                            <h1 className="display-3 font-weight-bold mt-3 name textShadow text-center" style={styles.name}>
                                 <strong>DJ Hersh</strong>
                             </h1>
                         </div>
                     </div>
                     <div className="row">
                         <div className="col d-flex text-center justify-content-center justify-content-lg-start mr-xl-5 ml-xl-n4">
-                            <h2 className="mt-n4">Full Stack Web Developer</h2>
+                            <h2 className="mt-n4 textShadow">Full Stack Web Developer</h2>
                         </div>
                     </div>
                 </div>
@@ -86,13 +86,13 @@ function Header({setPage, color, setColor}) {
                     <div className="one-pix">
                         <ul className="list-inline mt-5 ml-xl-5 text-center">
                             <li className="list-inline-item">
-                                <h2 className={portfolio ? `link font-weight-bold ${color}` : `link ${color}`} style={styles.name} onClick={handlePortfolio}>Portfolio</h2>
+                                <h2 className={portfolio ? `link textShadow font-weight-bold ${color}` : `link textShadow ${color}`} style={styles.name} onClick={handlePortfolio}>Portfolio</h2>
                             </li>
                             <li className="list-inline-item ml-xs-3 ml-sm-4">
-                                <h2 className={about ? `link font-weight-bold ${color}` : `link ${color}`} style={styles.name} onClick={handleAbout}>About</h2>
+                                <h2 className={about ? `link textShadow font-weight-bold ${color}` : `link textShadow ${color}`} style={styles.name} onClick={handleAbout}>About</h2>
                             </li>
                             <li className="list-inline-item mr-lg-n4 ml-xs-3 ml-sm-4">
-                                <h2 className={contact ? `link font-weight-bold ${color}` : `link ${color}`} style={styles.name} onClick={handleContact}>Contact</h2>
+                                <h2 className={contact ? `link textShadow font-weight-bold ${color}` : `link textShadow ${color}`} style={styles.name} onClick={handleContact}>Contact</h2>
                             </li>
                         </ul>
                     </div>

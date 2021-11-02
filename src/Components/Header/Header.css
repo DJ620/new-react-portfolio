@@ -8,13 +8,17 @@
     background-color: #4A4546;
 }
 
-/* .name {
-    color: #425be7;
-} */
-
-.name:hover {
-    cursor: pointer;
+.textShadow {
+    filter: drop-shadow(10px 10px 40px gray);
 }
+
+.textShadow.link:hover {
+    filter: none;
+}
+
+/* .name:hover {
+    cursor: pointer;
+} */
 
 .one-pix {
     margin-top: -1px;
