@@ -54,7 +54,8 @@ function Header({setPage, color, setColor}) {
             backgroundColor: color === "maroon" ? "maroon" : "rgba(128, 0, 0, 0.536)",
             border: color === "maroon" ? "2px outset gray" : "1px inset gray",
             borderTopRightRadius: "15px",
-            borderBottomRightRadius: "15px"
+            borderBottomRightRadius: "15px",
+            marginTop: color === "maroon" ? "-1px" : "0px"
         }
     }
 
