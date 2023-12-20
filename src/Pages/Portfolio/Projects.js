@@ -8,8 +8,17 @@ import planner from "../../images/daily-planner.png";
 import episorder from "../../images/episorder.png";
 import todolist from "../../images/todolist.png";
 import bookTracker from "../../images/book-tracker.png";
+import tvtracker from "../../images/tvtracker.png";
 
 const projects = [
+    {
+        name: "TV Tracker",
+        deployed: "https://65832f221cdab40009ec0da0--delightful-phoenix-1f62ce.netlify.app",
+        image: tvtracker,
+        repo: "https://github.com/DJ620/TV-Tracker",
+        description: "This is a mobile-responsive React web application I build that allows users to track the TV shows they watch. It utilizes the TV Maze API to gather information on any show a user chooses, and keeps track of what episodes have and have not been watched. Once a show is in a user's Library, it automatically lets them know if they have a new episode available for the show, if it is up to date, or if the user has not started watching the show.",
+        tech: ["React", "Redux", "Express", "MongoDB", "Mongoose", "Axios", "Passport", "JSONwebtoken", "React-Bootstrap"]
+    },
     // {
     //     name: "Store Front",
     //     deployed: "https://storefrontreact.herokuapp.com/",
