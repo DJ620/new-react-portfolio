@@ -19,6 +19,14 @@ const projects = [
         description: "This is a mobile-responsive React web application I build that allows users to track the TV shows they watch. It utilizes the TV Maze API to gather information on any show a user chooses, and keeps track of what episodes have and have not been watched. Once a show is in a user's Library, it automatically lets them know if they have a new episode available for the show, if it is up to date, or if the user has not started watching the show.",
         tech: ["React", "Redux", "Express", "MongoDB", "Mongoose", "Axios", "Passport", "JSONwebtoken", "React-Bootstrap"]
     },
+    {
+        name: "Reading Tracker",
+        deployed: "https://musical-taiyaki-af1829.netlify.app",
+        image: bookTracker,
+        repo: "https://github.com/DJ620/Reading-Tracker",
+        description: "This is an application I built to track reading progress. It uses the Google Books API to grab the data of any book, and allows you to log all of your reading sessions, including how much of the book you read, how long you read for, any quotes you want to jot down, and you can add your own notes.",
+        tech: ["React", "Express", "MongoDB", "Mongoose", "JSONWebtoken", "React-Bootstrap", "Google Books API", "Axios", "Passport"]
+    },
     // {
     //     name: "Store Front",
     //     deployed: "https://storefrontreact.herokuapp.com/",
@@ -43,14 +51,6 @@ const projects = [
         description: "This is a mobile-responsive webpage built for the company 'Sell More Mattresses'. I sought out the opportunity to work on a real world website for an existing business, and partnered with a web designer to create the page. The designer provided me with " + <a href="https://drive.google.com/file/d/1lfkrvAtqBg6Vi8nKn2Xuz4PjvKNDtLXT/view?usp=sharing" target="_blank"> + "this " + </a> + "wireframe, which I used to then build the actual site.",
         tech: ["Bootstrap", "EmailJS", "Twitter API"]
     },
-    // {
-    //     name: "Reading Tracker",
-    //     deployed: "https://djs-book-tracker.herokuapp.com/",
-    //     image: bookTracker,
-    //     repo: "https://github.com/DJ620/Book-tracker",
-    //     description: "This is an application I built to track reading progress. It uses the Google Books API to grab the data of any book, and allows you to log all of your reading sessions, including how much of the book you read, how long you read for, any quotes you want to jot down, and you can add your own notes. You can create your own account, or use the guest account: Username: Guest, Password: guest123",
-    //     tech: ["React", "Express", "MongoDB", "Mongoose", "JSONWebtoken", "React-Bootstrap", "Google Books API", "Axios", "Passport"]
-    // },
     {
         name: "RainShine",
         deployed: "https://dj620.github.io/rain-shine/",
