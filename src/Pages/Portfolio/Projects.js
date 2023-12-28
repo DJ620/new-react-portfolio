@@ -13,7 +13,7 @@ import tvtracker from "../../images/tvtracker.png";
 const projects = [
     {
         name: "TV Tracker",
-        deployed: "https://65832f221cdab40009ec0da0--delightful-phoenix-1f62ce.netlify.app",
+        deployed: "https://dj-tv-tracker.netlify.app/",
         image: tvtracker,
         repo: "https://github.com/DJ620/TV-Tracker",
         description: "This is a mobile-responsive React web application I build that allows users to track the TV shows they watch. It utilizes the TV Maze API to gather information on any show a user chooses, and keeps track of what episodes have and have not been watched. Once a show is in a user's Library, it automatically lets them know if they have a new episode available for the show, if it is up to date, or if the user has not started watching the show.",
@@ -21,7 +21,7 @@ const projects = [
     },
     {
         name: "Reading Tracker",
-        deployed: "https://musical-taiyaki-af1829.netlify.app",
+        deployed: "https://dj-reading-tracker.netlify.app",
         image: bookTracker,
         repo: "https://github.com/DJ620/Reading-Tracker",
         description: "This is an application I built to track reading progress. It uses the Google Books API to grab the data of any book, and allows you to log all of your reading sessions, including how much of the book you read, how long you read for, any quotes you want to jot down, and you can add your own notes.",
