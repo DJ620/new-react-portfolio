@@ -20,7 +20,7 @@ function Description({ side, description, tech }) {
   };
   return (
     <div className={top}>
-      <p style={styles.descr}>{description}</p>
+      <p style={styles.descr} dangerouslySetInnerHTML={{ __html: description }}></p>
       <p style={styles.list}>Technologies Used:</p>
       <ul className="list-unstyled" style={styles.list}>
         {tech.map((tech) => (

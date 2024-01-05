@@ -48,7 +48,7 @@ const projects = [
         deployed: "https://dj620.github.io/sell-more-mattresses/",
         image: mattress,
         repo: "https://github.com/DJ620/sell-more-mattresses",
-        description: "This is a mobile-responsive webpage built for the company 'Sell More Mattresses'. I sought out the opportunity to work on a real world website for an existing business, and partnered with a web designer to create the page. The designer provided me with " + <a href="https://drive.google.com/file/d/1lfkrvAtqBg6Vi8nKn2Xuz4PjvKNDtLXT/view?usp=sharing" target="_blank"> + "this " + </a> + "wireframe, which I used to then build the actual site.",
+        description: "This is a mobile-responsive webpage built for the company 'Sell More Mattresses'. I sought out the opportunity to work on a real world website for an existing business, and partnered with a web designer to create the page. The designer provided me with a wireframe, which I used to then build the actual site.",
         tech: ["Bootstrap", "EmailJS", "Twitter API"]
     },
     {
