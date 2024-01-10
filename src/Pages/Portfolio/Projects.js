@@ -16,7 +16,7 @@ const projects = [
         deployed: "https://dj-tv-tracker.netlify.app/",
         image: tvtracker,
         repo: "https://github.com/DJ620/TV-Tracker",
-        description: "This is a mobile-responsive React web application I built that allows users to track the TV shows they watch. It utilizes the TV Maze API to gather information on any show a user chooses, and keeps track of what episodes have and have not been watched. Once a show is in a user's Library, it automatically lets them know if they have a new episode available for the show, if it is up to date, or if the user has not started watching the show.",
+        description: "This is a mobile-responsive React web application I built that allows users to track the TV shows they watch. It utilizes the TV Maze API to gather information on any show a user chooses, and keeps track of what episodes have and have not been watched. Once a show is in a user's Library, it automatically lets them know if they have a new episode available for the show, if it is up to date, or if the user has not started watching the show. You can create your own account, or use the demo account (username: demo, password: demo123)",
         tech: ["React", "Redux", "Express", "MongoDB", "Mongoose", "Axios", "Passport", "JSONwebtoken", "React-Bootstrap"]
     },
     {
