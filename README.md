@@ -10,6 +10,10 @@ This is the repository for Daniel (DJ) Hersh's web development portfolio. It is 
 * gh-pages
 * emailjs
 
+## Link
+
+https://www.djhersh.com
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
