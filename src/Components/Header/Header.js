@@ -79,7 +79,7 @@ function Header({setPage, color, setColor}) {
                     </div>
                     <div className="row">
                         <div className="col d-flex text-center justify-content-center justify-content-lg-start mr-xl-5 ml-xl-n4">
-                            <h2 className="mt-n4 textShadow">Full Stack Web Developer</h2>
+                            <h2 className="mt-n4 textShadow">Frontend Web Developer</h2>
                         </div>
                     </div>
                 </div>
