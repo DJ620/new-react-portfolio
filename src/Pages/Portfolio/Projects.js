@@ -9,8 +9,17 @@ import episorder from "../../images/episorder.png";
 import todolist from "../../images/todolist.png";
 import bookTracker from "../../images/book-tracker.png";
 import tvtracker from "../../images/tvtracker.png";
+import wordle from "../../images/wordle.png";
 
 const projects = [
+    {
+        name: "DJ's Wordle",
+        deployed: "https://dj620.github.io/wordle/",
+        image: wordle,
+        repo: "https://github.com/DJ620/wordle",
+        description: "This is my rendition of the classic game 'Wordle,' developed entirely from scratch without relying on any tutorials or guides. In my Wordle app, users can enjoy the daily challenge of guessing the secret word, shared among all players and changing every day. Additionally, players can immerse themselves in 'Endless' mode, starting with a 3-letter word and progressing with each correct guess to longer words for an ever-increasing challenge. To add a personal touch, users have the option to create their custom Wordle challenges, where they choose the word and set the number of guesses for their challenger. A unique URL is then generated for easy sharing with friends or family. Experience the joy of word guessing and challenge your friends with my custom Wordle app!",
+        tech: ["React", "Vite", "Redux", "Tailwind", "Framer-Motion", "React-Confetti", "React-Icons"]
+    },
     {
         name: "TV Tracker",
         deployed: "https://dj-tv-tracker.netlify.app/",
