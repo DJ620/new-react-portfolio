@@ -69,7 +69,7 @@ const fizzbuzz = (n) => {
         <div className="tw-flex tw-justify-center">
           <button
             onClick={() => setShowCode(!showCode)}
-            className="tw-bg-blue-700 tw-text-white tw-py-2 tw-px-4 tw-rounded-md hover:tw-bg-yellow-400 hover:tw-text-black tw-ml-5 tw-h-12 tw-w-28 tw-text-nowrap"
+            className="tw-bg-blue-700 tw-text-white tw-py-2 tw-px-4 tw-rounded-md hover:tw-bg-yellow-400 hover:tw-text-black tw-ml-5 tw-h-12 tw-w-32 tw-text-nowrap"
           >
             {showCode ? "Hide code" : "Show code"}
           </button>
