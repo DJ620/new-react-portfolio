@@ -1,0 +1,71 @@
+.container {
+    padding-top: 15vh
+}
+
+.headshot {
+    box-shadow: 5px 2px 30px -5px black;
+    border-radius: 100px;
+    background-color: #4A4546;
+}
+
+.textShadow {
+    filter: drop-shadow(10px 10px 40px gray);
+}
+
+.textShadow.link:hover {
+    filter: none;
+}
+
+/* .name:hover {
+    cursor: pointer;
+} */
+
+.one-pix {
+    margin-top: -1px;
+    margin-right: -1px;
+}
+
+.colorBtn {
+    display: flex;
+    border: none;
+    padding: 0;
+    background: transparent;
+    filter: drop-shadow(10px 10px 40px black);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.colorBtn:focus {
+    outline: none;
+}
+.btnPiece {
+    height: 30px;
+    width: 40px;
+}
+
+.link {
+    /* color: rgb(154, 154, 154); */
+}
+
+.link:hover {
+    color: white !important;
+    /* background-color: #5a72f9; */
+    border-radius: 10px;
+    padding: 7px;
+    margin: -7px;
+    box-shadow: 1px 1px 10px black;
+    cursor: pointer;
+}
+
+.blue:hover {
+    background-color: #5a72f9;
+}
+
+.maroon:hover {
+    background-color: maroon;
+}
+
+.link:active {
+    box-shadow: 1px 1px 5px black;
+}

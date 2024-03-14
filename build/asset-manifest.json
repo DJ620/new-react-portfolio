@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bd891be5.css",
+    "main.js": "/static/js/main.308c5454.js",
+    "static/media/tvtracker.png": "/static/media/tvtracker.6c2c208796adce9e4fe5.png",
+    "static/media/rain-shine.png": "/static/media/rain-shine.58bc6538a8d84b32e676.png",
+    "static/media/harmony.png": "/static/media/harmony.30d5dde2eac6c0b83668.png",
+    "static/media/headshot2.jpg": "/static/media/headshot2.32a1765bf26e8a8d701a.jpg",
+    "static/media/daily-planner.png": "/static/media/daily-planner.79f7ba3681de88966828.png",
+    "static/media/book-tracker.png": "/static/media/book-tracker.f0cafc50ee27fccddeb1.png",
+    "static/media/storefrontreact.png": "/static/media/storefrontreact.347d3b96409ef403a73b.png",
+    "static/media/mattress.png": "/static/media/mattress.a294f280ca4324ebb490.png",
+    "static/media/todolist.png": "/static/media/todolist.6484aec983478eb5f45d.png",
+    "static/media/build-a-burger.png": "/static/media/build-a-burger.2e8c4f9ea42068f1ae00.png",
+    "static/media/code-quiz.png": "/static/media/code-quiz.5129bd9ffa6db9f00c8a.png",
+    "static/media/res-master-dj.pdf": "/static/media/res-master-dj.8f1c4a0f03a015f408a6.pdf",
+    "static/media/dh-PRINT-hr-1-round.png": "/static/media/dh-PRINT-hr-1-round.a30583337118c0b48518.png",
+    "static/media/episorder.png": "/static/media/episorder.6475b66527b557e61b69.png",
+    "static/media/wordle.png": "/static/media/wordle.5a9c44f0897719507168.png",
+    "static/media/mysql.png": "/static/media/mysql.ce94e2f2e4ccf995fde2.png",
+    "index.html": "/index.html",
+    "main.bd891be5.css.map": "/static/css/main.bd891be5.css.map",
+    "main.308c5454.js.map": "/static/js/main.308c5454.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd891be5.css",
+    "static/js/main.308c5454.js"
+  ]
+}

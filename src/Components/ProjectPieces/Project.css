@@ -1,0 +1,18 @@
+.repo {
+    background-color: #F7B801;
+    box-shadow: 2px 2px 10px 1px black;
+}
+
+.repo:hover {
+    background-color: #dea705;
+}
+
+.card {
+    background: transparent;
+    border: none;
+    padding-bottom: "0px";
+}
+
+img {
+    border-radius: 25px;
+}

@@ -1,0 +1,22 @@
+img {
+    border-radius: 0;
+}
+
+p {
+    font-size: 18px;
+}
+
+.flex {
+    display: flex;
+}
+
+/* .iconrow {
+    width: 60vw;
+    min-width: 400px;
+} */
+
+.iconcontainer {
+    /* margin-top: 50px; */
+    /* margin-bottom: -85px; */
+    /* transform: skewY(-6deg); */
+}

@@ -1,0 +1,42 @@
+.github {
+    height: 70px;
+    width: auto;
+    transform: scale(1.3);
+}
+
+.github:hover {
+    transform: scale(1.4);
+}
+
+.linkedin {
+    height: 100px;
+    width: auto;
+    transform: scale(1.2);
+}
+
+.linkedin:hover {
+    transform: scale(1.3);
+}
+
+.twitter:hover {
+    transform: scale(1.1);
+}
+
+.react {
+    transform: scale(0.15);
+    margin-top: -85px;
+    margin-bottom: -70px;
+    margin-left: -80px;
+}
+
+.made {
+    margin-left: -80px;
+}
+
+.iconShadow {
+    filter: drop-shadow(15px 15px 30px black);
+}
+
+.iconShadow:hover {
+    filter: drop-shadow(15px 15px 28px black);
+}
