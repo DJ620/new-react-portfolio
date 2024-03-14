@@ -103,7 +103,7 @@ const fizzbuzz = (n) => {
               type="number"
               value={number}
               onChange={(e) => setNumber(e.target.value)}
-              className="tw-border tw-border-gray-300 tw-py-2 tw-pl-4 tw-rounded-md tw-mb-4 tw-w-24"
+              className="tw-border tw-border-gray-300 tw-py-1 tw-pl-4 tw-rounded-md tw-mb-4 tw-w-24"
             />
           </div>
         </div>
