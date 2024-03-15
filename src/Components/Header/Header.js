@@ -5,6 +5,7 @@ import Contact from '../../Pages/Contact/Contact';
 import Portfolio from '../../Pages/Portfolio/Portfolio';
 import Icons from '../Icons/Icons';
 import "./Header.css";
+import { motion } from 'framer-motion';
 
 function Header({setPage, color, setColor}) {
     const [portfolio, setPortfolio] = useState(true);
@@ -40,6 +41,9 @@ function Header({setPage, color, setColor}) {
         name: {
             color: color === "blue" ? "#5a72f9" : "maroon"
         },
+        subheader: {
+            color: color === "blue" ? "#212529" : "white"
+        },
         colorBtn: {
             display: "flex",
             border: "none"
@@ -61,10 +65,15 @@ function Header({setPage, color, setColor}) {
 
     return (
         <nav className="container">
-            <button onClick={changeColor} className="colorBtn">
+            <button onClick={changeColor} className="colorBtn tw-fixed tw-z-20 tw-opacity-85">
                 <div style={styles.blue} className="btnPiece"/>
                 <div style={styles.maroon} className="btnPiece"/>
             </button>
+            <motion.div
+                initial={{ y: -25, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ stiffness: 120, duration: 0.75 }}
+            >
             <div className="row">
                 <div className="col-xl-2 col-xs-12 ml-lg-5 ml-xl-n3 pl-0 d-flex justify-content-center">
                     <img src={headshot} className="img-fluid headshot" alt="DJ Headshot"/>
@@ -78,7 +87,7 @@ function Header({setPage, color, setColor}) {
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col d-flex text-center justify-content-center justify-content-lg-start mr-xl-5 ml-xl-n4">
+                        <div className="col d-flex text-center justify-content-center justify-content-lg-start mr-xl-5 ml-xl-n4" style={styles.subheader}>
                             <h2 className="mt-n4 textShadow">Frontend Web Developer</h2>
                         </div>
                     </div>
@@ -99,6 +108,7 @@ function Header({setPage, color, setColor}) {
                     </div>
                 </div>
             </div>
+            </motion.div>
         </nav>
     );
 };

@@ -9,7 +9,7 @@
 }
 
 .textShadow {
-    filter: drop-shadow(10px 10px 40px gray);
+    /* filter: drop-shadow(10px 10px 40px gray); */
 }
 
 .textShadow.link:hover {
@@ -68,4 +68,8 @@
 
 .link:active {
     box-shadow: 1px 1px 5px black;
+}
+
+test {
+    color: #14181b
 }

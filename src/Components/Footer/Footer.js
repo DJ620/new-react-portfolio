@@ -1,26 +1,29 @@
 import React from "react";
-import twitter from "../../images/twitter.png";
-import logo from "../../images/logo192.png";
-import github from "../../images/Icons/githubIcon.png";
 import "./Footer.css";
+import { FaGithub, FaLinkedin, FaTwitter, FaReact } from "react-icons/fa";
 
-function Footer() {
+function Footer({color}) {
+    const styles = {
+        colorMode: {
+            color: color === "blue" ? "#14181b" : "white"
+        }
+    }
   return (
       <footer className="container">
-          <div className="d-flex justify-content-center">
+          <div className="tw-flex tw-justify-center tw-gap-5 tw-mb-2">
               <a href="https://www.linkedin.com/in/djhersh/" target="_blank">
-                  <img src="https://cdn2.iconfinder.com/data/icons/linkedin-ui-flat/48/LinkedIn_UI-02-512.png" alt="linkedin" className="linkedin iconShadow"/>
+                  <FaLinkedin className="tw-text-6xl hover:tw-scale-125 iconShadow" />
               </a>
               <a href="https://github.com/DJ620" target="_blank">
-                  <img src={github} alt="github" className="github iconShadow mt-3"/>
+                  <FaGithub style={styles.colorMode} className="tw-text-6xl hover:tw-scale-125 iconShadow"/>
               </a>
               <a href="https://twitter.com/DjhershWebDev" target="_blank">
-                  <img src={twitter} alt="twitter" className="twitter iconShadow mt-1 ml-1"/>
+                  <FaTwitter className="tw-text-6xl hover:tw-scale-125 iconShadow" />
               </a>
           </div>
-          <div className="row d-flex justify-content-center">
-            <img src={logo} alt="react logo" className="react"/>
-            <p className="made">Made with React</p>
+          <div className="tw-flex tw-justify-center tw-gap-1">
+            <FaReact className="tw-text-blue-400 tw-text-2xl"/>
+            <p style={styles.colorMode}>Made with React</p>
           </div>
       </footer>
   )

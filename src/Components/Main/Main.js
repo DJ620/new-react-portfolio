@@ -20,7 +20,7 @@ function Main({ page, color }) {
   return (
       <>
     <div style={styles.icons}>
-    <Ticker offset="run-in">{() => <Icons />}</Ticker>
+    <Ticker offset="run-in">{() => <Icons color={color} />}</Ticker>
     </div>
     <main style={styles.color}>
       <div className="block">{page}</div>

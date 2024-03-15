@@ -25,8 +25,9 @@ import typescript from "../../images/Icons/typescript.png";
 import reactpdf from "../../images/Icons/react-pdf.png";
 import reactNative from "../../images/Icons/react-native.png";
 import next from "../../images/Icons/next_logo.png";
+import { SiTailwindcss } from "react-icons/si";
 
-function Icons() {
+function Icons({ color }) {
   const icons = [
     {
       tech: "HTML",
@@ -43,6 +44,12 @@ function Icons() {
     {
       tech: "jQuery",
       img: jquery,
+    },
+    {
+      tech: "TailwindCSS",
+      img: SiTailwindcss,
+      isIcon: true,
+      color: "tw-text-blue-400"
     },
     {
       tech: "Bootstrap",
@@ -66,15 +73,15 @@ function Icons() {
     },
     {
       tech: "TypeScript",
-      img: typescript
+      img: typescript,
     },
     {
       tech: "React Native",
-      img: reactNative
+      img: reactNative,
     },
     {
       tech: "Next.js",
-      img: next
+      img: next,
     },
     {
       tech: "MySQL",
@@ -118,7 +125,7 @@ function Icons() {
     },
     {
       tech: "React-PDF",
-      img: reactpdf
+      img: reactpdf,
     },
     {
       tech: "Git",
@@ -138,7 +145,10 @@ function Icons() {
       whiteSpace: "nowrap",
       width: "2765px",
       height: "50px",
-      marginLeft: "10px"
+      marginLeft: "10px",
+    },
+    colorMode: {
+      color: color === "blue" ? "#14181b" : "white",
     },
   };
 
@@ -146,13 +156,17 @@ function Icons() {
     <div className="row" style={styles.container}>
       {icons.map((icon) => (
         <div className="row align-items-center" key={icon.tech}>
-          <img
-            src={icon.img}
-            className="my-3 ml-3"
-            alt="tech icon"
-            style={styles.img}
-          />
-          <p className="mr-4 ml-1 pt-3">{icon.tech}</p>
+          {icon.isIcon ? (
+            <icon.img className={`my-3 ml-3 tw-text-2xl ${icon.color}`}/>
+          ) : (
+            <img
+              src={icon.img}
+              className="my-3 ml-3"
+              alt="tech icon"
+              style={styles.img}
+            />
+          )}
+          <p className="mr-4 ml-1 pt-3 tw-text-gray-500">{icon.tech}</p>
         </div>
       ))}
     </div>

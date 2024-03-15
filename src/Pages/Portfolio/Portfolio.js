@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Description from "../../Components/ProjectPieces/Description";
 import ProjectCard from "../../Components/ProjectPieces/ProjectCard";
 import projects from "./Projects";
-import resume from "../../images/res-master-dj.pdf";
+import resume from "../../images/resMasterDJ.pdf";
 import "./Portfolio.css";
 
 function Portfolio() {
